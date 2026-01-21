@@ -273,7 +273,7 @@ def _partie_terminee(plateau: List[List[int]]) -> bool:
     # Partie non terminee si il y a des cases vides
     # Partie non terminee si il y a des fusions possibles (horizontale ou verticale)
     # Sinon c'est vrai
-    # raise NotImplementedError("Fonction partie_terminee non encore implémentée.")
+
     # 1. S'il reste une case vide, ce n'est pas fini
     if _get_cases_vides(plateau):
         return False
