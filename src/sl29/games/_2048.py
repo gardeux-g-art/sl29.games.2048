@@ -71,7 +71,12 @@ def _get_cases_vides(plateau: List[List[int]]) -> List[Tuple[int, int]]:
 
 
 def _ajouter_tuile(plateau: List[List[int]]) -> List[List[int]]:
-    """
+    
+    cv = _get_cases_vides(plateau)
+    nhasard = [0,-1]
+    random.randint(0,len(-1))
+    coord = cases_vides
+    
     Ajoute une tuile de valeur 2 sur une case vide.
 
     :param plateau: La grille actuelle.
